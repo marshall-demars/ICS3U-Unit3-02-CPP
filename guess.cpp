@@ -21,7 +21,7 @@ int main() {
     if (randomNumber == CHOSEN_NUMBER) {
         std::cout << "You guessed correctly!";
     }
-    if (randomNumber == CHOSEN_NUMBER) {
+    if (randomNumber != CHOSEN_NUMBER) {
         std::cout << "You guessed incorrectly.";
     }
 
