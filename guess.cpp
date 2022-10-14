@@ -25,5 +25,6 @@ int main() {
         std::cout << "You guessed incorrectly.";
     }
 
+    std::cout << "" << std::endl;
     std::cout << "\nDone." << std::endl;
 }
