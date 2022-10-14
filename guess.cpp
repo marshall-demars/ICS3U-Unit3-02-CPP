@@ -18,7 +18,12 @@ int main() {
     std::cin >> randomNumber;
 
     // process and output
-    if (randomNumber == CHOSEN_NUMBER)
+    if (randomNumber == CHOSEN_NUMBER) {
+        std::cout << "You guessed correctly!";
+    }
+    if (randomNumber == CHOSEN_NUMBER) {
+        std::cout << "You guessed incorrectly.";
+    }
 
     std::cout << "\nDone." << std::endl;
 }
